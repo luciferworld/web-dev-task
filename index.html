@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,7 +51,9 @@
             margin-bottom: 20px;
         }
 
-        .book-now-btn, .signup-btn, .login-btn {
+        .book-now-btn,
+        .signup-btn,
+        .login-btn {
             background-color: #4319da;
             color: #fff;
             padding: 10px 20px;
@@ -59,7 +62,9 @@
             border-radius: 20px;
         }
 
-        .book-now-btn:hover, .signup-btn:hover, .login-btn:hover {
+        .book-now-btn:hover,
+        .signup-btn:hover,
+        .login-btn:hover {
             background-color: #22db7f;
         }
 
@@ -73,7 +78,8 @@
             margin-bottom: 8px;
         }
 
-        input, select {
+        input,
+        select {
             width: 100%;
             padding: 8px;
             margin-bottom: 15px;
@@ -98,11 +104,38 @@
             bottom: 0;
             width: 100%;
         }
+
         .submitnow:hover {
-        background-color: #22db7f;
-    }
+            background-color: #22db7f;
+        }
+
+        @media only screen and (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            form {
+                margin-top: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            main {
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -115,7 +148,8 @@
 
     <main>
         <h2>Welcome to Our Gym</h2>
-        <p>Join our state-of-the-art gym for a healthier lifestyle. We offer a variety of fitness classes to help you achieve your fitness goals.</p>
+        <p>Join our state-of-the-art gym for a healthier lifestyle. We offer a variety of fitness classes to help you
+            achieve your fitness goals.</p>
 
         <button class="book-now-btn" onclick="showForm()">Book Now</button>
 
@@ -127,7 +161,7 @@
             <input type="email" id="email" name="email" required>
 
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone"  required placeholder="Enter 11-digit phone number">
+            <input type="tel" id="phone" name="phone" required placeholder="Enter 11-digit phone number">
 
             <label for="city">City Name:</label>
             <input type="text" id="city" name="city" required>
@@ -146,20 +180,20 @@
                 <option value="crossfit">Regular exersise</option>
                 <option value="crossfit">Weight loss</option>
                 <option value="crossfit">Weight gain</option>
-                </select>
+            </select>
 
             <label for="timing">Select Timing:</label>
             <select id="timing" name="timing" required>
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
                 <option value="evening">Evening</option>
-                 </select>
+            </select>
 
             <button type="submit" class="submitnow"> Submit</button>
         </form>
     </main>
-   
-  
+
+
     <footer>
         &copy; Made by Ibrahim G-118 for Web dev task.
     </footer>
@@ -172,4 +206,5 @@
     </script>
 
 </body>
+
 </html>
