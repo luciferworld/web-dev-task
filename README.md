@@ -1,9 +1,10 @@
 <p align="center">
 Basic fitness class booking for my web-dev-task by <a href="https://www.facebook.com/GDSCCUIATD/" target="_blank">GDSC ATD</a> web ninja. Don't forget to give a star if you like it.
 </p>
--------<br>
-## ```Connect With Me```<br>
-<p align="center">
-Name: Ibrahim khan<br>
-Membreship id: G-118
-</p>
+-------
+## ```Bot Support Groups```
+
+- Name: Ibrahim khan
+- Membership id : G-118
+
+
